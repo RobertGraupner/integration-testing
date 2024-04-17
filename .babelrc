@@ -1,0 +1,12 @@
+// musimy dodać ten plik aby móc korzystać z jsx w testach integracyjnych
+{
+    "presets": [
+        "@babel/preset-env",
+        [
+            "@babel/preset-react",
+            {
+                "runtime": "automatic"
+            }
+        ]
+    ]
+}
